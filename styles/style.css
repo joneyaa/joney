@@ -8,11 +8,6 @@
     height: 70vh;
 }
 
-:hover.menu>ul>li {
-    background: black;
-    color: white;
-}
-
 .menu > ul {
     display: flex;
     justify-content: center;
@@ -20,6 +15,11 @@
     padding: 0 10%;
     height: 10vh;
     background-color: skyblue;
+}
+
+:hover.menu>ul>li {
+    background: black;
+    color: white;
 }
 
 .menu > ul > li {
@@ -30,13 +30,17 @@
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     align-items: center;
 }
 
 .aside {
+    width: 30%;
     text-align: center;
+}
+
+.content {
+    width: 70%;
 }
 
 .footer {
